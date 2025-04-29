@@ -1,0 +1,55 @@
+EX NO 2C : C PROGRAM TO PERFORM MULTIPLICATION AND DIVISION OF TWO NUMBERS USING FUNCTIONS (WITHOUT ARGUMENT AND WITHOUT RETURN TYPE).
+DATE:28-04-2025
+
+
+AIM:
+To write a program to perform multiplication and division of two numbers using functions (without argument and without return type).
+
+ALGORITHM:
+1. Start.
+2. Declare the variables.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Enter number for multiplication and division.
+6. End.
+
+PROGRAM:
+#include<stdio.h>
+void multiply(int a,int b); 
+void div(int a,int b);
+int main ()
+{
+int a,b; 
+scanf("%d%d",&a,&b); 
+multiply(a,b);
+div(a,b);
+}
+void multiply(int a,int b)
+{
+int product; 
+product= a*b;
+printf("Multiplication: %d",product);
+}
+void div(int a,int b)
+{
+int result; 
+result=a/b;
+printf("\nDivision: %d",result);
+}
+
+
+C program to perform multiplication and division of two numbers using functions
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT: 
+10
+2
+
+OUTPUT:
+Multiplication: 20
+Division: 5
+
+RESULT:
+Thus, the program is executed and verified successfully
