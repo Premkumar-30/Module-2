@@ -1,1 +1,45 @@
+EX NO 7 : C PROGRAM TO PRINT A RIGHT TRIANGLE STAR PATTERN USING NESTED FOR LOOP
+DATE:28-04-2025
 
+
+AIM:
+To write a c program to print a right triangle star pattern using nested for loop.
+
+ALGORITHM:
+1. Start.
+2. Declare the variables i,j,k,n.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Enter number of rows and columns.
+6. End.
+
+PROGRAM:
+#include <stdio.h>
+int main() {
+ int i, j, rows;
+ scanf("%d", &rows);
+ for (i = 1; i <= rows; i++) {
+ for (j = 1; j <= i; j++) {
+ printf("*");
+ }
+ printf("\n");
+ } return 0;
+}
+
+C program to print a right triangle star pattern using nested for loop.
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT: 
+5
+
+OUTPUT:
+*
+**
+***
+****
+*****
+
+RESULT:
+Thus, the program is executed and verified successfully
