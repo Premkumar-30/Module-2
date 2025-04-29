@@ -1,1 +1,42 @@
 
+EX NO 6 : C PROGRAM TO PRINT THE STRING "KEYBOARD" N NUMBER OF TIMES
+DATE:28-04-2025
+
+
+AIM:
+To write a program to print the string "KEYBOARD" n number of times.
+
+ALGORITHM:
+1. Start.
+2. Declare the variables i,n.
+3. Prompt the user to enter a value.
+4. Read the value using scanf.
+5. Run the for loop for “i” variable.
+6. Print “KEYBOARD\n”.
+7. End
+
+PROGRAM:
+#include<stdio.h> 
+int main()
+{
+int i,n; 
+scanf("%d",&n); 
+for(i=1;i<=n;i++)
+{printf("KEYBOARD\n");
+}return 0;
+}
+
+C program to print the string "KEYBOARD" n number of times.
+
+Developed by:  Prem kumar K
+RegisterNumber:  212223060209
+
+INPUT: 
+5000 
+1
+
+OUTPUT:
+KEYBOARD
+
+RESULT:
+Thus, the program is executed and verified successfully
